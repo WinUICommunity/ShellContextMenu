@@ -9,14 +9,23 @@
 	  <PackageIcon>icon.png</PackageIcon>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
-	  <PackageProjectUrl>https://github.com/ghost1372/SettingsUI</PackageProjectUrl>
-	  <RepositoryUrl>https://github.com/ghost1372/SettingsUI</RepositoryUrl>
-	  <PackageTags>winui winui3 win11 xaml settings theme styles projectreunion winappsdk windowsappsdk wasdk reunion contextmenu shell</PackageTags>
-	  <PackageReleaseNotes>https://github.com/ghost1372/SettingsUI/releases</PackageReleaseNotes>
+	  <PackageProjectUrl>https://github.com/WinUICommunity/ShellContextMenu</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/WinUICommunity/ShellContextMenu</RepositoryUrl>
+	  <PackageTags>winui winui3 win11 xaml settings theme styles projectreunion winappsdk windowsappsdk wasdk reunion contextmenu shell WinUICommunity</PackageTags>
+	  <PackageReleaseNotes>https://github.com/WinUICommunity/ShellContextMenu/releases</PackageReleaseNotes>
 	  <RootNamespace>WinUICommunity.ShellContextMenu</RootNamespace>
 	  <UseWinUI>true</UseWinUI>
-	  <Description>Create a New Context Menu Item for Windows 11/10 new Shell Context Menu</Description>
+	  <PackageId>WinUICommunity.ShellContextMenu</PackageId>
+	  <Description>Create a New Context Menu Item for Windows 11/10</Description>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ContextMenuCustomHost.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ContextMenuCustomHost.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <ItemGroup>
 	  <None Include="Assets\icon.png" Pack="true" PackagePath="" />
 	  <None Include="..\LICENSE" Pack="true" PackagePath="" />
