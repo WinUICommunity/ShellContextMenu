@@ -6,10 +6,10 @@
         <img alt="projects" src="https://img.shields.io/badge/WinUICommunity-Projects-green"></img>
     </a> 
     <a href="https://www.nuget.org/packages/WinUICommunity.ShellContextMenu">
-        <img alt="Nuget" src="https://img.shields.io/nuget/dt/WinUICommunity.ShellContextMenu?color=brightgreen&label=Installs"></img>
+        <img alt="Installed" src="https://img.shields.io/nuget/dt/WinUICommunity.ShellContextMenu?color=brightgreen&label=Installs"></img>
     </a> 
     <a href="https://ghost1372.github.io/winUICommunity/">
-        <img alt="Nuget" src="https://img.shields.io/badge/Document-Here-critical"></img>
+        <img alt="Docs" src="https://img.shields.io/badge/Document-Here-critical"></img>
     </a> 
 </p>
 
@@ -24,6 +24,8 @@
 
 # ShellContextMenu
 add a new ContextMenu for Windows 11/10.
+
+> **_NOTE:_** ShellContextMenu is based on `WindowsAppSDK` version `1.2.221209.1` stable and `Microsoft.Windows.SDK.BuildTools` version `10.0.22621.755`
 
 ```
 Install-Package WinUICommunity.ShellContextMenu
