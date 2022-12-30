@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <TargetFrameworks>net6.0-windows10.0.17763.0;net6.0-windows10.0.19041.0;net7.0-windows10.0.17763.0;net7.0-windows10.0.19041.0</TargetFrameworks>
+	  <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+	  <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+	  <Version>1.0.0</Version>
+	  <Copyright>Copyright (c) 2021-2023 Mahdi Hosseini</Copyright>
+	  <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	  <PackageIcon>icon.png</PackageIcon>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageProjectUrl>https://github.com/ghost1372/SettingsUI</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/ghost1372/SettingsUI</RepositoryUrl>
+	  <PackageTags>winui winui3 win11 xaml settings theme styles projectreunion winappsdk windowsappsdk wasdk reunion contextmenu shell</PackageTags>
+	  <PackageReleaseNotes>https://github.com/ghost1372/SettingsUI/releases</PackageReleaseNotes>
+	  <RootNamespace>WinUICommunity.ShellContextMenu</RootNamespace>
+	  <UseWinUI>true</UseWinUI>
+	  <Description>Create a New Context Menu Item for Windows 11/10 new Shell Context Menu</Description>
+  </PropertyGroup>
+  <ItemGroup>
+	  <None Include="Assets\icon.png" Pack="true" PackagePath="" />
+	  <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+	  <None Include="..\..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.221209.1" />
+	  <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.755" />
+  </ItemGroup>
+</Project>
