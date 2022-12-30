@@ -1,0 +1,3 @@
+[submodule "ContextMenuForWindows11"]
+	path = ContextMenuForWindows11
+	url = https://github.com/ikas-mc/ContextMenuForWindows11.git
