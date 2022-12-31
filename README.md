@@ -5,6 +5,12 @@
     <a href="https://github.com/WinUICommunity">
         <img alt="projects" src="https://img.shields.io/badge/WinUICommunity-Projects-green"></img>
     </a> 
+        <a href="https://www.nuget.org/profiles/WinUICommunity">
+        <img alt="WinuiCommunity Nugets" src="https://img.shields.io/badge/WinUICommunity-Nugets-green"></img>
+    </a> 
+        <a href="https://www.nuget.org/packages/WinUICommunity.ShellContextMenu">
+        <img alt="nuget-version" src="https://img.shields.io/nuget/v/WinUICommunity.ShellContextMenu.svg"></img>
+    </a>
     <a href="https://www.nuget.org/packages/WinUICommunity.ShellContextMenu">
         <img alt="Installed" src="https://img.shields.io/nuget/dt/WinUICommunity.ShellContextMenu?color=brightgreen&label=Installs"></img>
     </a> 
