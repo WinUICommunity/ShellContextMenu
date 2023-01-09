@@ -3,7 +3,7 @@
 	  <TargetFrameworks>net6.0-windows10.0.17763.0;net6.0-windows10.0.19041.0;net7.0-windows10.0.17763.0;net7.0-windows10.0.19041.0</TargetFrameworks>
 	  <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
 	  <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
-	  <Version>3.0.0</Version>
+	  <Version>3.0.1</Version>
 	  <Copyright>Copyright (c) 2021-2023 Mahdi Hosseini</Copyright>
 	  <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 	  <PackageIcon>icon.png</PackageIcon>

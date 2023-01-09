@@ -78,7 +78,7 @@ public class ContextMenuService
     private async Task<StorageFile> CreateMenuFileAsync(string name)
     {
         var folder = await GetMenusFolderAsync();
-        return await folder.CreateFileAsync(name, CreationCollisionOption.GenerateUniqueName);
+        return await folder.CreateFileAsync(name, CreationCollisionOption.ReplaceExisting);
     }
 
     public async Task<StorageFolder> GetMenusFolderAsync()
