@@ -1,22 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-	  <TargetFrameworks>net6.0-windows10.0.17763.0;net6.0-windows10.0.19041.0;net7.0-windows10.0.17763.0;net7.0-windows10.0.19041.0</TargetFrameworks>
-	  <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
-	  <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
-	  <Version>3.0.3</Version>
-	  <Copyright>Copyright (c) 2021-2023 Mahdi Hosseini</Copyright>
-	  <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-	  <PackageIcon>icon.png</PackageIcon>
-	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
-	  <PackageReadmeFile>README.md</PackageReadmeFile>
-	  <PackageProjectUrl>https://github.com/WinUICommunity/ShellContextMenu</PackageProjectUrl>
-	  <RepositoryUrl>https://github.com/WinUICommunity/ShellContextMenu</RepositoryUrl>
-	  <PackageTags>winui winui3 win11 xaml settings theme styles projectreunion winappsdk windowsappsdk wasdk reunion contextmenu shell WinUICommunity</PackageTags>
-	  <PackageReleaseNotes>https://github.com/WinUICommunity/ShellContextMenu/releases</PackageReleaseNotes>
-	  <RootNamespace>WinUICommunity.ShellContextMenu</RootNamespace>
-	  <UseWinUI>true</UseWinUI>
-	  <PackageId>WinUICommunity.ShellContextMenu</PackageId>
-	  <Description>Create a New Context Menu Item for Windows 11/10</Description>
+	<TargetFrameworks>net6.0-windows10.0.17763.0;net6.0-windows10.0.19041.0;net7.0-windows10.0.17763.0;net7.0-windows10.0.19041.0</TargetFrameworks>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+    <Version>3.1.0</Version>
+    <Copyright>Copyright (c) 2021-2023 Mahdi Hosseini</Copyright>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/WinUICommunity/ShellContextMenu</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/WinUICommunity/ShellContextMenu</RepositoryUrl>
+    <PackageTags>winui winui3 win11 xaml settings theme styles projectreunion winappsdk windowsappsdk wasdk reunion contextmenu shell WinUICommunity</PackageTags>
+    <PackageReleaseNotes>https://github.com/WinUICommunity/ShellContextMenu/releases</PackageReleaseNotes>
+    <RootNamespace>WinUICommunity.ShellContextMenu</RootNamespace>
+    <UseWinUI>true</UseWinUI>
+    <PackageId>WinUICommunity.ShellContextMenu</PackageId>
+    <Description>Create a New Context Menu Item for Windows 11/10</Description>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="ContextMenuCustomHost.dll" />
@@ -27,12 +27,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-	  <None Include="Assets\icon.png" Pack="true" PackagePath="" />
-	  <None Include="..\LICENSE" Pack="true" PackagePath="" />
-	  <None Include="..\README.md" Pack="true" PackagePath="" />
+	<None Include="Assets\icon.png" Pack="true" PackagePath="" />
+	<None Include="..\LICENSE" Pack="true" PackagePath="" />
+    <None Include="..\README.md" Pack="true" PackagePath="" />
   </ItemGroup>
   <ItemGroup>
-	  <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230118.102" />
-	  <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.755" />
+	<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230217.4" />
+	<PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.755" />
   </ItemGroup>
 </Project>
