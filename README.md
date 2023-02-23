@@ -31,7 +31,7 @@
 # ShellContextMenu
 add a new ContextMenu for Windows 11/10.
 
-> **_NOTE:_** ShellContextMenu is based on `WindowsAppSDK` version `1.2.221209.1` stable and `Microsoft.Windows.SDK.BuildTools` version `10.0.22621.755`
+> **_NOTE:_** ShellContextMenu is based on `WindowsAppSDK` version `1.2.230217.4` stable and `Microsoft.Windows.SDK.BuildTools` version `10.0.22621.755`
 
 ```
 Install-Package WinUICommunity.ShellContextMenu
